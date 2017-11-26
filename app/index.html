@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <script src="./app.js"></script>
+</head>
+<body>
+  <h1>food safe</h1>
+  <br> <label for="contractAddress">Contract address:</label> <input type="text" id="contractAddress" placeholder="scan address or create a new address"></input> <br>
+  <br> <label for="locationId">locationId:</label> <input type="text" id="locationId" placeholder="enter locationId"></input> <br>
+  <br> <label for="locationName">locationName:</label> <input type="text" id="locationName" placeholder="enter locationName"></input> <br>
+  <br> <label for="secret">secert:</label> <input type="text" id="secret" placeholder="enter secrert"></input> <br>
+  <br> <label for="passPhrase">passpharse:</label> <input type="text" id="passPhrase" placeholder="enter passpharse"></input> <br>
+  <br><br>
+  <button id="createContract" onclick="App.createContract()" > create new Contract</button>
+  <br><br>
+  <button id="addNewLocation" onclick="App.addNewLocation()" >add new location</button>
+  <br><br>
+  <button id="getCurrentLocation" onclick="App.getCurrentLocation()" >get the current location</button>
+ 
+  
+  
+
+</body>
+</html>
